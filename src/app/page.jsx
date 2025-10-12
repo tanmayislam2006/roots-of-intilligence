@@ -1,12 +1,10 @@
-import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Hero from './Components/Hero/Hero';
+import Hero from "./Components/Hero/Hero";
+import ExploreCategories from "./Components/ExploreCategories/ExploreCategories";
 
 const Home = () => {
   return (
-    <div>
-        <Navbar/>
-        <Hero/>
+    <div className="">
+      <ExploreCategories />
     </div>
   );
 };

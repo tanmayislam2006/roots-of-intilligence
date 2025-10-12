@@ -2,6 +2,7 @@ import { Toaster } from "react-hot-toast";
 import AuthProvider from "./AuthProvider";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import Navbar from './Components/Navbar/Navbar';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,7 +21,12 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.variable} antialiased`}>
         <AuthProvider>
           <Toaster position="top-center" reverseOrder={false} />
-          <main className="w-full min-h-[calc(100vh-100px)]">{children}</main>   
+          <header>
+            <Navbar />
+          </header>
+          <main className="w-full min-h-[calc(100vh-100px)]">
+            {children}
+            </main>   
         </AuthProvider>
       </body>
     </html>
