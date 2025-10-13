@@ -4,6 +4,7 @@ import AboutSection from "./Components/AboutSection/AboutSection";
 import IndustriesSection from "./Components/IndustriesSection/IndustriesSection";
 import PortfolioSection from "./Components/PortfolioSection/PortfolioSection";
 import ProcessSection from "./Components/ProcessSection/ProcessSection";
+import TechnologiesSection from "./Components/TechnologiesSection/TechnologiesSection";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <IndustriesSection/>
       <PortfolioSection/>
       <ProcessSection/>
+      <TechnologiesSection/>
     </div>
   );
 };
