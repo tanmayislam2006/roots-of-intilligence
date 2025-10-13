@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRobot, FaCode, FaMobile, FaPalette, FaRocket } from "react-icons/fa";
+import { FaRobot, FaMobile, FaRocket, FaLaptopCode, FaPaintBrush } from "react-icons/fa";
 
 const ExploreCategories = () => {
   const features = [
@@ -10,7 +10,7 @@ const ExploreCategories = () => {
       color: "from-[#6366f1] to-[#8b5cf6]",
     },
     {
-      icon: <FaCode className="w-6 h-6 text-white" />,
+      icon: <FaLaptopCode className="w-6 h-6 text-white" />,
       title: "Web Development",
       description: "Modern, responsive websites and web applications built with cutting-edge technologies.",
       color: "from-[#10b981] to-[#3dd6b8]",
@@ -22,7 +22,7 @@ const ExploreCategories = () => {
       color: "from-[#f59e0b] to-[#fbbf24]",
     },
     {
-      icon: <FaPalette className="w-6 h-6 text-white" />,
+      icon: <FaPaintBrush className="w-6 h-6 text-white" />,
       title: "UI/UX Design",
       description: "User-centered design solutions that enhance engagement and drive conversions.",
       color: "from-[#ec4899] to-[#f973ab]",
